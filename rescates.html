@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Listado de casos de rescate y su estado actual">
+  <title>Rescates | Rescate y Adopción Animal</title>
+</head>
+<body>
+  <header>
+    <h1>Sistema de Control de Rescate y Adopción Animal</h1>
+    <nav aria-label="Navegación principal">
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="reportar.html">Reportar rescate</a></li>
+        <li><a href="rescates.html">Ver rescates</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Casos de rescate registrados</h2>
+
+    <section aria-labelledby="titulo-tabla">
+      <h3 id="titulo-tabla">Historial y estado actual</h3>
+      <table>
+        <caption>Listado de rescates con su responsable y estado</caption>
+        <thead>
+          <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Fecha de ingreso</th>
+            <th scope="col">Especie</th>
+            <th scope="col">Nombre</th>
+            <th scope="col">Ubicación</th>
+            <th scope="col">Responsable</th>
+            <th scope="col">Estado</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">001</th>
+            <td><time datetime="2026-10-20">20/10/2026</time></td>
+            <td>Perro</td>
+            <td>Max</td>
+            <td>Portoviejo, parque La Rotonda</td>
+            <td>Dra. Ana Cedeño (Veterinaria)</td>
+            <td>En Tratamiento</td>
+          </tr>
+          <tr>
+            <th scope="row">002</th>
+            <td><time datetime="2026-10-25">25/10/2026</time></td>
+            <td>Gato</td>
+            <td>Luna</td>
+            <td>Manta, barrio Tarqui</td>
+            <td>Luis Vera (Voluntario)</td>
+            <td>En Adopción</td>
+          </tr>
+          <tr>
+            <th scope="row">003</th>
+            <td><time datetime="2026-11-02">02/11/2026</time></td>
+            <td>Fauna silvestre</td>
+            <td>Sin nombre (iguana)</td>
+            <td>Montecristi, vía a Manta</td>
+            <td>Dr. Pedro Mero (Veterinario)</td>
+            <td>Liberado</td>
+          </tr>
+          <tr>
+            <th scope="row">004</th>
+            <td><time datetime="2026-11-05">05/11/2026</time></td>
+            <td>Perro</td>
+            <td>Rocky</td>
+            <td>Portoviejo, calle Olmedo</td>
+            <td>María Zambrano (Voluntaria)</td>
+            <td>Rescatado</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section aria-labelledby="titulo-estados">
+      <h3 id="titulo-estados">Significado de los estados</h3>
+      <dl>
+        <dt>Rescatado</dt>
+        <dd>El animal ingresó al refugio y espera atención.</dd>
+        <dt>En Tratamiento</dt>
+        <dd>Recibe atención médica y observaciones.</dd>
+        <dt>En Adopción</dt>
+        <dd>Está sano y disponible para un adoptante.</dd>
+        <dt>Adoptado / Liberado</dt>
+        <dd>El caso se cerró con una adopción formal o con la liberación del animal.</dd>
+      </dl>
+    </section>
+
+    <aside>
+      <p>¿Encontraste otro animal? <a href="reportar.html">Reporta un nuevo rescate</a>.</p>
+    </aside>
+  </main>
+
+  <footer>
+    <p>Universidad Técnica de Manabí - UTM Online. Desarrollo de Sistemas Informáticos. Actividad #3.</p>
+    <p><small>Autora: Nicolle Anahi Macay Zambrano</small></p>
+  </footer>
+</body>
+</html>
